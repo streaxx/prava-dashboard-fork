@@ -18,7 +18,7 @@ export function DashboardNav() {
   const pathname = usePathname()
 
   return (
-    <nav className="grid items-start gap-2">
+    <nav className="grid items-start gap-2 p-4">
       {navItems.map((item) => {
         const Icon = item.icon
         return (
