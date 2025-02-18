@@ -180,7 +180,7 @@ export default function DashboardPage() {
               </svg>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">4</div>
+              <div className="text-2xl font-bold">2</div>
               <p className="text-xs text-muted-foreground">
                 1 from last month
               </p>
@@ -229,7 +229,7 @@ export default function DashboardPage() {
               </svg>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">3</div>
+              <div className="text-2xl font-bold">1</div>
               <p className="text-xs text-muted-foreground">1 agent inactive</p>
             </CardContent>
           </Card>
