@@ -99,7 +99,7 @@ export default function DashboardPage() {
                   Zwoop
                   <Badge variant="outline" className="border-red-500 text-red-500">Inactive</Badge>
                 </CardTitle>
-                <CardDescription>AI shopping agent</CardDescription>
+                <CardDescription>AI travelling butler</CardDescription>
               </CardHeader>
               <Link href={"/dashboard"}>
                 <CardContent className="flex gap-2 cursor-pointer text-gray-400">
