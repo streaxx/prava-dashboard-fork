@@ -74,17 +74,17 @@ export default function DashboardPage() {
       <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
       <Carousel>
         <CarouselContent className="py-4">
-          <CarouselItem className="basis-1/2">
+          <CarouselItem className="max-w-[35%]">
             <Card className="metallic-card card-hover">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   ChatShopper Genie
-                  <Badge variant="outline">Active</Badge>
+                  <Badge variant="outline" className="border-green-500 text-green-500">Active</Badge>
                 </CardTitle>
                 <CardDescription>AI shopping agent</CardDescription>
               </CardHeader>
               <Link href={"https://chatshopper.prava.space"}>
-                <CardContent className="flex gap-2 cursor-pointer">
+                <CardContent className="flex gap-2 cursor-pointer text-blue-700">
                   Explore
                   <ChevronRight />
                 </CardContent>
@@ -92,17 +92,17 @@ export default function DashboardPage() {
             </Card>
           </CarouselItem>
 
-          <CarouselItem className="basis-1/2">
+          <CarouselItem className="max-w-[35%]">
             <Card className="metallic-card card-hover">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   Zwoop
-                  <Badge variant="outline">Inactive</Badge>
+                  <Badge variant="outline" className="border-red-500 text-red-500">Inactive</Badge>
                 </CardTitle>
                 <CardDescription>AI shopping agent</CardDescription>
               </CardHeader>
               <Link href={"/dashboard"}>
-                <CardContent className="flex gap-2 cursor-pointer">
+                <CardContent className="flex gap-2 cursor-pointer text-gray-400">
                   Coming Soon
                   <ChevronRight />
                 </CardContent>
@@ -153,9 +153,9 @@ export default function DashboardPage() {
               </svg>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">$11,746.35</div>
+              <div className="text-2xl font-bold">$760.35</div>
               <p className="text-xs text-muted-foreground">
-                +20.1% from last month
+                +5.1% from last month
               </p>
             </CardContent>
           </Card>
@@ -182,7 +182,7 @@ export default function DashboardPage() {
             <CardContent>
               <div className="text-2xl font-bold">4</div>
               <p className="text-xs text-muted-foreground">
-                +1 from last month
+                1 from last month
               </p>
             </CardContent>
           </Card>
@@ -206,9 +206,9 @@ export default function DashboardPage() {
               </svg>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">7,023</div>
+              <div className="text-2xl font-bold">70</div>
               <p className="text-xs text-muted-foreground">
-                +19% from last month
+                +4% from last month
               </p>
             </CardContent>
           </Card>

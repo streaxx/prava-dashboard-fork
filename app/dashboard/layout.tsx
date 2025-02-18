@@ -22,8 +22,7 @@ export default function DashboardLayout({
         <div className="container flex h-16 items-center justify-between py-4">
           <Logo />
           <div className="flex items-center gap-4">
-            <ThemeToggle />
-            <UserNav />
+            {/*<ThemeToggle />*/}
             <SignedOut>
               <SignInButton />
               <SignUpButton />
