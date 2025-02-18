@@ -85,7 +85,7 @@ export default function DashboardPage() {
               </CardHeader>
               <Link href={"https://chatshopper.prava.space"}>
                 <CardContent className="flex gap-2 cursor-pointer text-blue-700">
-                  Explore
+                  Test
                   <ChevronRight />
                 </CardContent>
               </Link>
